@@ -1,0 +1,655 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+
+header {
+  width: 100%;
+  line-height: 20px;
+  text-align: center;
+  background: rgba(73, 71, 63, 0.6);
+  padding-top: 10px;
+  position: fixed;
+
+}
+
+
+
+.menu {
+  width: 60%;
+  height: 100%;
+  float: right;
+}
+.menu ul {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.menu ul a {
+  
+  color: rgb(184, 184, 184);
+  display: inline-block;
+  padding: 30px 10px;
+ text-transform: uppercase;
+ font-family: "Montserrat", sans-serif;
+ font-size: 12px;
+ font-weight: bold;
+}
+.menu ul a:hover {
+
+  color: #fff;
+  border-bottom: 4px solid  rgb(24, 207, 171);
+}
+.active {  
+  color:  rgb(24, 207, 171);
+  border-bottom: 4px solid  rgb(24, 207, 171);
+  
+}
+
+
+.banner {
+ 
+  background-color: #666;
+  background-image: url("../../assets/images/slider1.jpg");
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size: cover;
+  color: #fff;
+  padding: 200px 0;
+  text-align: center;
+  width: 100%;
+}
+
+.banner h1 
+{
+  font-size: 34px;
+  margin: 0px 0px 15px 0;
+  text-transform: uppercase;
+}
+.banner h1 span 
+{
+  color: rgb(24, 207, 171);
+}
+
+.banner h2 
+{
+  text-transform: uppercase;
+  font-size: 79px;
+  margin: 0px 0px 15px 0;
+  
+}
+.banner h3 
+{
+  font-size: 34px;
+  margin: 0px;
+  font-weight: 300;
+  text-transform: capitalize;
+ color:  rgb(184, 184, 184);
+}
+
+.banner_btns 
+{
+  padding-top: 130px;
+  margin: 0 auto;
+}
+.banner_btns a
+ {
+  font-size: 13px;
+  color: #fff;
+  padding: 25px 15px;
+  width: 180px;
+  text-decoration: none;
+  background: #18cfab;
+  border-top: 4px solid #fff;
+  border-radius: 4px;
+  margin: 0 13px;
+  text-align: center;
+  display: inline-block;
+}
+.banner_btns a.btn_2
+ {
+  background: #00cbf5;
+}
+
+.boxes
+{
+  display: block; 
+  text-align: center; 
+  width: 100%;
+  display: flex; 
+
+}
+.boxes div
+{
+   float: left; 
+  text-align: center; 
+  width: 25%; 
+  padding: 50px;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+.boxes .box1
+{
+  background-color: #1c2a33; 
+  border-top: 5px solid #18ceab; 
+  color:#18ceab ;
+}
+.boxes .box2
+{
+  background-color: #19ceab;
+   border-top: 5px solid #fff;
+   color:#fff
+}
+.boxes .box3
+{
+  background-color: #1c2a33; 
+  border-top: 5px solid #18ceab;
+  color:#18ceab
+}
+.boxes .box4
+{
+  background-color: #19ceab;
+   border-top: 5px solid #fff;
+   color:#fff
+  }
+
+.cafsection
+{
+ width: 1200px ;
+ margin: 0 auto;
+}
+.caftitle
+{ 
+  text-align: center;
+   font-size: 30px;
+    font-weight: bold;
+     margin: 80px 0; 
+     position: relative;
+}
+
+.rowcontent
+{
+  display: block;
+   text-align: left; 
+   width: 100%;
+   display: flex;
+  }
+
+.rowcontent .text1
+{ 
+   float: left;
+   text-align: left; 
+   width: 100%; 
+   margin: 30px;
+}
+
+.rowcontent .text1 h3
+{
+  margin: 0;
+}
+
+.rowcontent .text1 p
+{
+  margin: 0; 
+  font-size: 12px; 
+  margin-top: 10px;
+}
+
+
+.AboutMyCompany
+{
+width: 100%;
+/* height: auto; */
+display: flex;
+background-color: rgb(31, 27, 27);
+
+}
+
+.AboutMyCompany .left
+{
+  width: 40%;
+}
+
+.AboutMyCompany .right
+{
+  /* text-align: center; */
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 300px;
+}
+
+.AboutMyCompany .right h1
+{
+  color:#ffffff;
+  font-size: 36px;
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+  
+}
+
+
+.AboutMyCompany .right .menu {
+  width: 100%;
+  height: 100%;
+  /* align-items: center; */
+  text-align: center;
+  /* float: right; */
+}
+.AboutMyCompany .right .menu ul {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  /* display: flex; */
+}
+.AboutMyCompany .right.menu ul a {
+  
+  color: rgb(184, 184, 184);
+  display: inline-block;
+  padding: 30px 10px;
+ text-transform: uppercase;
+ font-family: "Montserrat", sans-serif;
+ font-size: 12px;
+ font-weight: bold;
+}
+.AboutMyCompany .right .menu ul a:hover {
+
+  color: #fff;
+  border-bottom: 4px solid  rgb(24, 207, 171);
+}
+.AboutMyCompany .right .active {  
+  color:  rgb(24, 207, 171);
+  border-bottom: 4px solid  rgb(24, 207, 171);
+  
+}
+
+.progress{
+  width: 30%;
+  height: 50%;
+  margin-top: 30px;
+}
+.white1{
+  background-color: violet;
+}
+.white2{
+  background-color: rgb(88, 224, 241);
+}
+.white3{
+  background-color: rgb(228, 114, 22);
+}
+.white4{
+  background-color: rgb(40, 153, 138);
+}
+.white5{
+  background-color: rgb(172, 170, 57);
+}
+
+
+
+
+/*company-work*/
+.work{
+  padding-top: 30px;
+  text-align: center;
+  border: 1px solid gray;
+}
+.continer2{
+  margin: 0 auto;
+  max-width: 1170px;
+}
+.workheading{
+ width: 100%;
+}
+.workheading h2{
+  margin-top: 10px;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 40px;
+  padding-bottom: 30px;
+}
+.workheading img{
+  margin: 0 auto;
+  display: block;
+  position: relative;
+}
+
+.workheading .menu
+{
+  float: left;
+  padding-left: 350px;
+  align-items: center;
+}
+
+.workheading .menu ul li
+{
+  border: 1px solid gray;
+}
+
+.workgallery{
+  margin-top: 10%;
+  display: flex;
+  padding: 10px;
+}
+.workgallery-1 img{
+  width: 285px;
+  height: 200px;
+}
+.workgallery-2 img{
+  width: 285px;
+  height: 200px;
+}
+.workgallery-3 img{
+  width: 285px;
+  height: 200px;
+}
+.workgallery-4 img{
+  width: 285px;
+  height: 200px;
+}
+#btn3{
+  margin: 20px;
+  font-size: 15px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  background-color: rgb(24,207,171);;
+  /* border-top: 6px solid #fff; */   
+}
+/*end-comapny-work*/
+
+
+
+.container3{
+  margin: 0 auto;
+  max-width:1170px;
+  padding: 0%;
+}
+.services-1{
+  width: 100%;
+}
+.services-2 h1{
+  text-align: center;
+  margin-top: 30px;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 40px;
+  padding-bottom: 30px;
+
+}
+.services-2 img{
+  margin: 0 auto;
+  display: block;
+  position: relative;
+}
+#serviceul 
+{    
+  width: 100%;
+  position: absolute;
+  left:30%; 
+}
+#serviceul li{
+  display: flex;
+  justify-content: space-evenly;
+  border: 1px solid gray;
+}
+.services-3{
+ width: 100%;
+ margin-top: 12%;
+ display: flex;
+}
+.services-3 img{
+  float: left;
+  width: 285px;
+  height: 200px;
+  padding-top: 42px;
+  /* float: left; */
+}
+.service-left
+{
+  float: left;
+  width: 25%;
+}
+.service-right
+{
+  width: 75%;
+}
+.services-3 h4
+{
+  /* float: right; */
+  padding: 16px;
+  text-align: justify;
+  font-size: 16px;
+  line-height: 25px;
+  font-family: 'montserratlight';
+  color: #777777
+}
+.services-2 .menu
+{
+  float: left;
+  padding-left: 150px;
+  width: 100%;
+}
+.services-2 .menu ul li
+{
+  border: 1px solid gray;
+  
+}
+
+.services-2 .menu ul li a:hover
+{
+  background-color: turquoise;
+
+}
+
+
+
+@media screen and (max-width: 768px) 
+{
+
+  header
+  {
+    width: 100%;
+  }
+  .menu 
+  {
+      width: 100%;
+      height: auto;
+      display: none;
+  }
+  .menu ul 
+  {
+      display: block;
+ 
+      overflow: hidden;
+     
+    
+      
+  }
+  .menu ul a {
+      text-align: left;
+      width: 100%;      
+      background: rgba(73, 71, 63, 0.6);
+      padding:20px;
+  }
+  .active {  
+    color:  rgb(24, 207, 171);
+    border-bottom:none;
+    
+  }
+  .banner
+  {
+    padding: 150px 0 80px 0;
+  }
+  .banner_btns {
+    padding-top: 50px;
+    margin: 0 auto;
+  }
+
+  .banner_btns a {
+    width: 120px;
+    margin: 0 10px;
+  }
+
+  
+  .banner h1 {
+    font-size: 16px;
+    margin: 0px 0px 15px 0;
+    text-transform: uppercase;
+  }
+  .banner h1 span {
+    color: rgb(24, 207, 171);
+  }
+  
+  .banner h2 {
+    text-transform: uppercase;
+    font-size: 35px;
+    margin: 0px 0px 15px 0;
+    
+  }
+  .banner h3 {
+    font-size: 16px;
+    margin: 0px;
+    font-weight: 300;
+    text-transform: capitalize;
+    color:  rgb(184, 184, 184);
+  }
+  .boxes
+  {
+    display: block; 
+    width: 100%;
+  }
+
+  .boxes div
+  {
+    display: block;
+     width: 100%;
+     padding: 50px 0;
+  }
+  
+  .cafsection
+  {
+    width: 100%; 
+    padding: 30px 0;
+   }
+  .caftitle
+  {
+    margin: 30px;
+  }
+  
+  .rowcontent
+  {
+    display: block; 
+    width: 100%;
+  }
+  .rowcontent .text1
+  {
+    display: block; 
+    width: 60%; 
+    padding: 50px 70px!; 
+    margin: 0;
+  }
+
+  .AboutMyCompany
+  {
+    display: inline-block;
+    width: 100%;
+    
+  }
+
+  .AboutMyCompany .left
+  {
+    display: block;
+    width: auto;
+  }
+
+  .AboutMyCompany .left img
+  {
+    display: inline-block;
+    width: 100%;
+    padding-top: 10px;
+  }
+  .AboutMyCompany .right
+  {
+    display: inline-block;
+    width: 100%;
+    padding-left: 0%;
+  }
+
+  .workgallery
+  {
+    display: inline;
+  }
+
+  .workgallery-1 img
+  {
+width: 70%;
+height: 70%;
+  }
+  .workgallery-2 img
+  {
+width: 70%;
+height: 70%;
+  }
+  .workgallery-3 img
+  {
+width: 70%;
+height: 70%;
+  }
+  .workgallery-4 img
+  {
+width: 70%;
+height: 70%;
+  }
+  
+  .service
+  {
+    display: block;
+  }
+
+  .services-3
+  {
+    display: block;
+  }
+
+  .services-3 .service-left
+  {
+    display: inline-block;
+    width: 100%;
+    /* padding: 60px; */
+  }
+
+  .services-3 .service-left img
+  {
+    width: 100%;
+    height: auto;
+  }
+
+  .services-3 .service-right
+  {
+    display: inline-block;
+    width: 100%;
+    /* padding-left: 50px; */
+    
+  }
+  .services-3 .service-right h3
+  {
+    font-size: 20px;
+  }
+}
